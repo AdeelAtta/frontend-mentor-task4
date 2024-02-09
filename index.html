@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      color:hsl(0, 0%, 100%);
+      margin-top:10px;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+    }
+
+    body {
+      max-width: 1440px;
+      min-width: 375px;
+      background: hsl(0, 0%, 8%);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      font-family: 'Inter', sans-serif;
+      font-size:14px;
+    }
+
+    .card {
+      background: hsl(0, 0%, 12%);
+      border-radius: 10px;
+      max-width: 350px;
+      padding: 30px 30px;
+      display: flex;
+      flex-direction:column;
+
+    }
+
+    .profile{
+      border-radius:50%;
+      width: 80px;
+      margin: 10px auto 15px;
+    }
+
+    h1{
+      font-weight: 600;
+      font-size: 18px;
+      text-align:center;
+      color:hsl(0, 0%, 100%);
+    }
+
+    .location{
+      text-align:center;
+      font-size: 12px;
+      margin: 5px auto;
+      font-weight: 400;
+      color:hsl(75, 94%, 57%);
+    }
+
+    .tag{
+      text-align:center;
+      color:hsl(0, 0%, 100%);
+      margin:20px auto;
+      font-size: 12px;
+
+    }
+
+    .button-group {
+      display: flex;
+      flex-direction:column;
+      justify-content: center;
+      align-items:center;
+      gap:12px;
+
+    }
+
+    button {
+      cursor:pointer;
+      padding: 10px 20px;
+      border-radius:6px;
+      border:none;
+      box-shadow: none; 
+      width:270px;
+      background: hsl(0, 0%, 20%);
+      color: hsl(0, 0%, 100%);
+      font-weight: 600;
+      transition: all 0.3s;
+      font-size: 12px;
+    }
+
+    button:hover{
+      background:hsl(75, 94%, 57%);
+      color:hsl(0, 0%, 20%);
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+      <img class="profile" src="./assets/images/avatar-jessica.jpeg" alt="">
+      <h1>Adeel Atta</h1>
+    <p class="location">Karachi, Pakistan</p>
+   <p class="tag">"Front-end developer and avid reader."</p>
+    <div class="button-group">
+      <Button>GitHub</Button>
+      <Button>Frontend Mentor</Button>
+      <Button>LinkedIn</Button>
+      <Button>Twitter</Button>
+      <Button>Instagram</Button>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
+    Coded by <a href="#">Adeel Atta</a>
+  </div>
+</body>
+
+</html>
